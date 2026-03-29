@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Purabh Singh
+# 👋 Hi, I'm Purabh
 
 **Computer Science Student @ Rutgers University** | **Incoming SWE Intern @ BNY Mellon** | **Full-Stack Developer**
 
