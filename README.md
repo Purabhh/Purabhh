@@ -86,22 +86,6 @@ FastAPI-style developer experience with Rust-level performance, built on Hyper 1
 
 ### **LeaseLink** • [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 Hackathon-winning Tinder-style housing marketplace with React + Tailwind frontend, Express.js backend, PostgreSQL, Google OAuth, and real-time WebSocket chat.
-
-### **Crypto Exchange MVP** • [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-FastAPI + PostgreSQL + asyncio crypto exchange with matching engine, REST/WebSocket APIs, and double-entry ledger system. Built during Essex Securities internship.
-
-### **CHESS-GAME** • [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-Chess game with voice-to-speech functionality and interactive gameplay.
-
-### **SwipeHousing** • [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-TypeScript-based housing application with modern UI/UX patterns.
-
-### **Kalonji Website** • [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-E-commerce website for a small clothing brand with responsive design and shopping cart functionality.
-
-### **COPWATCH-FRONTEND** • [![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://reactjs.org/) [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-Frontend application for monitoring and reporting system with real-time data visualization.
-
 ---
 
 ## 💼 Experience
