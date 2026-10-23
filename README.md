@@ -39,7 +39,7 @@ Local-first knowledge base and MCP server: parses an Obsidian vault into code-aw
 
 - **Gencost**: meter, route, and optimize gen-AI API costs in real time ([repo](https://github.com/Purabhh/Gencost))
 - **[PURABH'S WORLD](https://purabh.website)**: my interactive portfolio site ([repo](https://github.com/Purabhh/purabh-world))
-- **[Passport Club](https://passport-bros.vercel.app)**: an invite-only shared travel scrapbook for you and your friends ([repo](https://github.com/Purabhh/PassportClub))
+- **Passport Club**: an invite-only shared travel scrapbook for you and your friends ([repo](https://github.com/Purabhh/PassportClub))
 
 ---
  
