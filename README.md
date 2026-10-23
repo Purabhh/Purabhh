@@ -19,7 +19,7 @@ I build backend systems where correctness matters: payment ledgers, real-time en
 ### [Mochee](https://mochee-app.vercel.app/) · TypeScript, Node.js, PostgreSQL, Redis, WebSockets
 Backend for a multi-user SAT/PSAT prep platform. Real-time 1v1 duel engine where the server owns the clock and scoring, scaled across instances with Redis pub/sub, with Elo updates in row-locked Postgres transactions, an event-sourced match log, and exactly-once payouts via idempotency keys. Every generated question is verified by an independent re-solve before publishing. **100+ backend tests.**
  
-### [FastRust](https://github.com/Purabhh/FastRust)
+### [FastRust](https://github.com/Purabhh/FastRust) · Rust, Tokio, Hyper, Serde, rustls
 A FastAPI-style web framework built from scratch: trie router, typed extractors, route macros, and middleware, with OpenAPI 3.1 docs and Swagger UI generated from route metadata. Benchmarked at **under 2.3 µs** per request.
  
 ### [vaultdb](https://github.com/Purabhh/vaultdb) · Python, Ollama, SQLite, MCP
@@ -37,7 +37,7 @@ Local-first knowledge base and MCP server: parses an Obsidian vault into code-aw
 
 ## 🆕 Newest Creations
 
-- **[Gencost](https://github.com/Purabhh/Gencost)**: meter, route, and optimize gen-AI API costs in real time
+- **Gencost**: meter, route, and optimize gen-AI API costs in real time ([repo](https://github.com/Purabhh/Gencost))
 - **[PURABH'S WORLD](https://purabh.website)**: my interactive portfolio site ([repo](https://github.com/Purabhh/purabh-world))
 - **[Passport Club](https://passport-bros.vercel.app)**: an invite-only shared travel scrapbook for you and your friends ([repo](https://github.com/Purabhh/PassportClub))
 
