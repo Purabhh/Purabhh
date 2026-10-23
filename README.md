@@ -32,7 +32,7 @@ Local-first knowledge base and MCP server: parses an Obsidian vault into code-aw
 
 <img src="assets/h-biggest-update.svg" width="100%" alt="Biggest Update" />
 
-### [Gambit](https://gambit-amber.vercel.app) · JavaScript, three.js, Stockfish, MediaPipe · [repo](https://github.com/Purabhh/CHESS-GAME)
+### [Gambit](https://gambit-amber.vercel.app) · JavaScript, three.js, Stockfish, MediaPipe · [repo](https://github.com/Purabhh/gambit)
 **Just fully revamped.** Hands-free 3D chess against Stockfish: point at a piece with your webcam to see its legal moves, say where it goes, and confirm with "yes". The revamp added pinch-and-drag moves, thumbs up/down and open-palm gestures, animated capture fights between toon pieces, a game log with clocks and takebacks, voice menus on every screen, and a new app icon.
 
 <img src="assets/h-newest-creations.svg" width="100%" alt="Newest Creations" />
