@@ -30,15 +30,10 @@ Local-first knowledge base and MCP server: parses an Obsidian vault into code-aw
 ### [LeaseLink](https://github.com/Purabhh/LeaseLink) · TypeScript, React, Express, PostgreSQL
 **1st place, MusaLabs Hackathon** (50+ teams). Full-stack housing-matching app with Google OAuth and real-time WebSocket chat.
 
-<img src="assets/h-biggest-update.svg" width="100%" alt="Biggest Update" />
+<img src="assets/h-newest-creations.svg" width="100%" alt="Biggest Update" />
 
 ### [Gambit](https://gambit-amber.vercel.app) · JavaScript, three.js, Stockfish, MediaPipe · [repo](https://github.com/Purabhh/gambit)
 **Just fully revamped.** Hands-free 3D chess against Stockfish: point at a piece with your webcam to see its legal moves, say where it goes, and confirm with "yes". The revamp added pinch-and-drag moves, thumbs up/down and open-palm gestures, animated capture fights between toon pieces, a game log with clocks and takebacks, voice menus on every screen, and a new app icon.
-
-<img src="assets/h-newest-creations.svg" width="100%" alt="Newest Creations" />
-
-- **[PURABH'S WORLD](https://purabh.website)**: my interactive portfolio site ([repo](https://github.com/Purabhh/purabh-world))
-- **Passport Club**: an invite-only shared travel scrapbook for you and your friends ([repo](https://github.com/Purabhh/PassportClub))
 
 <img src="assets/h-experience.svg" width="100%" alt="Experience" />
 
