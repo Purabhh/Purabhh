@@ -30,7 +30,21 @@ Local-first knowledge base and MCP server: parses an Obsidian vault into code-aw
  
 ---
  
+## 🔥 Biggest Update
+
+### [Gambit](https://gambit-amber.vercel.app) · JavaScript, three.js, Stockfish, MediaPipe · [repo](https://github.com/Purabhh/CHESS-GAME)
+**Just fully revamped.** Hands-free 3D chess against Stockfish: point at a piece with your webcam to see its legal moves, say where it goes, and confirm with "yes". The revamp added pinch-and-drag moves, thumbs up/down and open-palm gestures, animated capture fights between toon pieces, a game log with clocks and takebacks, voice menus on every screen, and a new app icon.
+
+## 🆕 Newest Creations
+
+- **[Gencost](https://github.com/Purabhh/Gencost)**: meter, route, and optimize gen-AI API costs in real time
+- **[PURABH'S WORLD](https://purabh.website)**: my interactive portfolio site ([repo](https://github.com/Purabhh/purabh-world))
+- **[Passport Club](https://passport-bros.vercel.app)**: an invite-only shared travel scrapbook for you and your friends ([repo](https://github.com/Purabhh/PassportClub))
+
+---
+ 
 ## 💼 Experience
+
  
 **Software Engineering Intern @ BNY** · Jun – Aug 2026
 Payments platform: blockchain audit trail for $2B+ in cleared payments, real-time SWIFT message tracing across 15M+ daily messages (Java, Spring Boot, Angular)
@@ -89,5 +103,7 @@ B.S. Computer Science, Minor in Data Science · Aug 2023 – May 2027 · Dean's 
  
 ## 📈 Activity
  
-[![Activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Purabhh&theme=github-compact&hide_border=true&area=true)](https://github.com/Purabhh)
+[![Contributions](https://ghchart.rshah.org/2ea043/Purabhh)](https://github.com/Purabhh)
+
+[![Streak](https://streak-stats.demolab.com?user=Purabhh&theme=github-dark-blue&hide_border=true)](https://github.com/Purabhh)
  
