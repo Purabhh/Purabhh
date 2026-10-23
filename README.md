@@ -6,6 +6,10 @@
 <a href="mailto:ps1340@scarletmail.rutgers.edu"><img src="assets/btn-email.svg" height="44" alt="Email" /></a>
 </p>
 
+<!-- streak -->
+<a href="https://github.com/Purabhh"><img src="assets/streak.svg" width="100%" alt="5 day streak" /></a>
+<!-- /streak -->
+
 I build backend systems where correctness matters: payment ledgers, real-time engines, and the infrastructure that makes AI tools reliable.
 
 **Currently building:** **[Mochee](https://mochee-app.vercel.app/)**, a 3D tutor and study platform where students practice their own material against each other and compete in ranked duels for College Board exams like the SAT/PSAT, with the scope still growing; and [FastRust](https://github.com/Purabhh/FastRust), a FastAPI-style web framework

@@ -98,5 +98,63 @@ def card(total, weeks):
 {stars(w, 120, 30, 5)}{"".join(out)}</g></svg>"""
 
 
+
+
+# ---------- streak card: only on the profile while the streak is 3+ days ----------
+MIN_STREAK = 3
+README = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "README.md")
+MARK_A, MARK_B = "<!-- streak -->", "<!-- /streak -->"
+
+
+def flame(cx, base, s, delay, cls):
+    """One flame tongue: outer orange, inner gold, core cream, flickering."""
+    def tongue(k, fill):
+        w, h = 26 * s * k, 70 * s * k
+        return (f'<path fill="{fill}" d="M{cx} {base} C{cx - w} {base} {cx - w * 1.1} {base - h * .45} {cx - w * .35} {base - h * .7} '
+                f'C{cx - w * .2} {base - h * .82} {cx + w * .05} {base - h * .9} {cx} {base - h} '
+                f'C{cx + w * .3} {base - h * .75} {cx + w * 1.1} {base - h * .5} {cx + w} {base - h * .2} '
+                f'C{cx + w * .9} {base - h * .05} {cx + w * .5} {base} {cx} {base}Z"/>')
+    return (f'<g class="{cls}" style="animation-delay:{delay}s;transform-origin:{cx}px {base}px">'
+            f'{tongue(1, "#ff6a2b")}{tongue(.72, "#ffb340")}{tongue(.42, "#fff1c9")}</g>')
+
+
+def streak_card(n):
+    w, h = 1000, 170
+    r = __import__("random").Random(n)
+    embers = "".join(
+        f'<circle class="em" cx="{r.uniform(40, w - 40):.0f}" cy="{h - 10}" r="{r.choice([1.5, 2, 2.6])}" fill="{GOLD}" '
+        f'style="animation-delay:{r.uniform(0, 4):.2f}s;animation-duration:{r.uniform(3, 5.5):.2f}s"/>' for _ in range(26))
+    fires = "".join(flame(x, h + 4, sc, d, c) for x, sc, d, c in
+                    [(60, 1.7, 0, "f1"), (140, 1.25, .3, "f2"), (870, 1.3, .5, "f1"), (945, 1.8, .1, "f2"), (330, .6, .4, "f1"), (680, .65, .6, "f2"),
+                     (215, .85, .7, "f2"), (795, .9, .2, "f1")])
+    big = f"{n} DAY STREAK"
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}">
+<title>{n} day contribution streak</title><style>
+.f1{{animation:fl 1.1s ease-in-out infinite alternate}}.f2{{animation:fl 1.5s ease-in-out infinite alternate-reverse}}
+@keyframes fl{{0%{{transform:scale(1,1) skewX(0)}}50%{{transform:scale(1.06,.92) skewX(4deg)}}100%{{transform:scale(.95,1.1) skewX(-4deg)}}}}
+.em{{animation:rise 4s linear infinite;opacity:0}}@keyframes rise{{0%{{transform:translateY(0);opacity:0}}15%{{opacity:1}}100%{{transform:translateY(-150px);opacity:0}}}}
+.glow{{animation:pulse 2.2s ease-in-out infinite}}@keyframes pulse{{0%,100%{{opacity:.55}}50%{{opacity:.9}}}}
+</style><defs>{sky_defs("sky", w, h)}
+<radialGradient id="heat" cx=".5" cy="1.1" r=".8"><stop offset="0" stop-color="#ff6a2b" stop-opacity=".75"/><stop offset="1" stop-color="#ff6a2b" stop-opacity="0"/></radialGradient>
+<clipPath id="c"><rect width="{w}" height="{h}" rx="22"/></clipPath></defs>
+<g clip-path="url(#c)"><rect width="{w}" height="{h}" fill="url(#sky)"/><rect class="glow" width="{w}" height="{h}" fill="url(#heat)"/>
+{stars(w, 70, 20, 9)}{fires}{embers}
+<path d="{text(big, w / 2, 96, 58, anchor="middle", spacing=1.5)}" transform="translate(0 5)" fill="#7a2a12"/>
+<path d="{text(big, w / 2, 96, 58, anchor="middle", spacing=1.5)}" fill="{CREAM}"/>
+<path d="{text("KEEP THE FIRE GOING", w / 2, 132, 16, "baloo600.ttf", "middle", 2)}" fill="{GOLD}"/></g></svg>"""
+
+
+def sync_streak(n):
+    s = open(README, encoding="utf-8").read()
+    a, b = s.index(MARK_A) + len(MARK_A), s.index(MARK_B)
+    block = (f'\n<a href="https://github.com/{USER}"><img src="assets/streak.svg" width="100%" alt="{n} day streak" /></a>\n'
+             if n >= MIN_STREAK else "\n")
+    if n >= MIN_STREAK:
+        save("streak.svg", streak_card(n))
+    open(README, "w", encoding="utf-8").write(s[:a] + block + s[b:])
+
+
 if __name__ == "__main__":
-    save("activity.svg", card(*fetch()))
+    total, weeks = fetch()
+    save("activity.svg", card(total, weeks))
+    sync_streak(streaks([d for wk in weeks for d in wk])[0])
