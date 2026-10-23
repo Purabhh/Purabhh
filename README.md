@@ -4,7 +4,7 @@
  
 I build backend systems where correctness matters: payment ledgers, real-time engines, and the infrastructure that makes AI tools reliable.
  
-🔨 **Currently building:** **[Mochee](https://geminiguy.vercel.app/)**, a 3D tutor and study platform where students practice their own material against each other and compete in ranked duels for College Board exams like the SAT/PSAT, with the scope still growing; and [FastRust](https://github.com/Purabhh/FastRust), a FastAPI-style web framework
+🔨 **Currently building:** **[Mochee](https://mochee-app.vercel.app/)**, a 3D tutor and study platform where students practice their own material against each other and compete in ranked duels for College Board exams like the SAT/PSAT, with the scope still growing; and [FastRust](https://github.com/Purabhh/FastRust), a FastAPI-style web framework
 
 🤝 **Looking to collaborate on:** AI tooling & infrastructure
  
@@ -16,7 +16,7 @@ I build backend systems where correctness matters: payment ledgers, real-time en
  
 ## 🚀 Featured Projects
  
-### [Mochee](https://geminiguy.vercel.app/) · TypeScript, Node.js, PostgreSQL, Redis, WebSockets
+### [Mochee](https://mochee-app.vercel.app/) · TypeScript, Node.js, PostgreSQL, Redis, WebSockets
 Backend for a multi-user SAT/PSAT prep platform. Real-time 1v1 duel engine where the server owns the clock and scoring, scaled across instances with Redis pub/sub, with Elo updates in row-locked Postgres transactions, an event-sourced match log, and exactly-once payouts via idempotency keys. Every generated question is verified by an independent re-solve before publishing. **100+ backend tests.**
  
 ### [FastRust](https://github.com/Purabhh/FastRust)
