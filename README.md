@@ -66,39 +66,14 @@ B.S. Computer Science, Minor in Data Science · Aug 2023 – May 2027 · Dean's 
  
 ## 🛠️ Tech Stack
  
-**Languages**
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
- 
-**Backend & Infrastructure**
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
- 
-**Data**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
- 
-**AI / ML**
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
- 
-**Frontend**
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
- 
+<table>
+<tr><td align="right"><h3>Languages</h3></td><td><img src="https://skillicons.dev/icons?i=java,py,ts,rust,cpp&perline=8" height="48" /></td></tr>
+<tr><td align="right"><h3>Backend &amp; Infra</h3></td><td><img src="https://skillicons.dev/icons?i=spring,nodejs,fastapi,kafka,docker,kubernetes,aws&perline=8" height="48" /></td></tr>
+<tr><td align="right"><h3>Data</h3></td><td><img src="https://skillicons.dev/icons?i=postgres,redis,sqlite,mongodb&perline=8" height="48" /></td></tr>
+<tr><td align="right"><h3>AI / ML</h3></td><td><img src="https://cdn.simpleicons.org/langchain/888888" height="44" title="LangChain" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/ollama/888888" height="44" title="Ollama" />&nbsp;&nbsp;<img src="https://skillicons.dev/icons?i=sklearn&perline=8" height="48" /></td></tr>
+<tr><td align="right"><h3>Frontend</h3></td><td><img src="https://skillicons.dev/icons?i=react,nextjs,angular&perline=8" height="48" /></td></tr>
+</table>
+
 ---
  
 ## 📈 Activity
