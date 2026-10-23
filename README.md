@@ -4,7 +4,7 @@
  
 I build backend systems where correctness matters: payment ledgers, real-time engines, and the infrastructure that makes AI tools reliable.
  
-🔨 **Currently building:** **[Mochee](https://mochee-git-main-purabhs-projects.vercel.app/)**, a real-time SAT/PSAT prep platform with 1v1 ranked duels, and [FastRust](https://github.com/Purabhh/FastRust), a FastAPI-style web framework
+🔨 **Currently building:** **[Mochee](https://mochee-git-main-purabhs-projects.vercel.app/)**, a 3D tutor and study platform where students practice their own material against each other and compete in ranked duels for College Board exams like the SAT/PSAT, with the scope still growing; and [FastRust](https://github.com/Purabhh/FastRust), a FastAPI-style web framework
 🤝 **Looking to collaborate on:** AI tooling & infrastructure
  
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://purabh.website)
