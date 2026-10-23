@@ -4,7 +4,7 @@
  
 I build backend systems where correctness matters: payment ledgers, real-time engines, and the infrastructure that makes AI tools reliable.
  
-🔨 **Currently building:** **Mochee**, a real-time SAT/PSAT prep platform with 1v1 ranked duels, and [FastRust](https://github.com/Purabhh/FastRust), a FastAPI-style web framework
+🔨 **Currently building:** **[Mochee](https://mochee-git-main-purabhs-projects.vercel.app/)**, a real-time SAT/PSAT prep platform with 1v1 ranked duels, and [FastRust](https://github.com/Purabhh/FastRust), a FastAPI-style web framework
 🤝 **Looking to collaborate on:** AI tooling & infrastructure
  
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://purabh.website)
@@ -15,13 +15,13 @@ I build backend systems where correctness matters: payment ledgers, real-time en
  
 ## 🚀 Featured Projects
  
-### Mochee · TypeScript, Node.js, PostgreSQL, Redis, WebSockets
+### [Mochee](https://mochee-git-main-purabhs-projects.vercel.app/) · TypeScript, Node.js, PostgreSQL, Redis, WebSockets
 Backend for a multi-user SAT/PSAT prep platform. Real-time 1v1 duel engine where the server owns the clock and scoring, scaled across instances with Redis pub/sub, with Elo updates in row-locked Postgres transactions, an event-sourced match log, and exactly-once payouts via idempotency keys. Every generated question is verified by an independent re-solve before publishing. **100+ backend tests.**
  
 ### [FastRust](https://github.com/Purabhh/FastRust)
 A FastAPI-style web framework built from scratch: trie router, typed extractors, route macros, and middleware, with OpenAPI 3.1 docs and Swagger UI generated from route metadata. Benchmarked at **under 2.3 µs** per request.
  
-### vaultdb · Python, Ollama, SQLite, MCP
+### [vaultdb](https://github.com/Purabhh/vaultdb) · Python, Ollama, SQLite, MCP
 Local-first knowledge base and MCP server: parses an Obsidian vault into code-aware chunks, embeds them with Ollama, and serves hybrid keyword + vector search to Claude Code through 4 MCP tools. Kept live with a file watcher. **98 tests.**
  
 ### [LeaseLink](https://github.com/Purabhh/LeaseLink) · TypeScript, React, Express, PostgreSQL
