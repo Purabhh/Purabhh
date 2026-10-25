@@ -58,3 +58,7 @@ B.S. Computer Science, Minor in Data Science · Aug 2023 – May 2027 · Dean's 
 <img src="assets/h-activity.svg" width="100%" alt="Activity" />
 
 <a href="https://github.com/Purabhh"><img src="assets/activity.svg" width="100%" alt="GitHub activity" /></a>
+
+<img src="assets/h-profile-views.svg" width="100%" alt="Profile Views" />
+
+<p align="center"><img src="https://komarev.com/ghpvc/?username=Purabhh&label=PROFILE%20VIEWS&color=46C95E&style=for-the-badge&labelColor=3d2466" alt="Profile views" /></p>

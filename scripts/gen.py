@@ -178,7 +178,7 @@ if __name__ == "__main__":
     os.makedirs(OUT, exist_ok=True)
     save("banner.svg", banner())
     save("stack.svg", stack())
-    for name in ["Featured Projects", "Biggest Update", "Newest Creations", "Experience", "Education", "Tech Stack", "Activity"]:
+    for name in ["Featured Projects", "Biggest Update", "Newest Creations", "Experience", "Education", "Tech Stack", "Activity", "Profile Views"]:
         save("h-" + name.lower().replace(" ", "-") + ".svg", header(name))
     save("btn-portfolio.svg", button("Portfolio", "googlechrome", GREEN))
     save("btn-linkedin.svg", button("LinkedIn", "linkedin", "#0A66C2"))
