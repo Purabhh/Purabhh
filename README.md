@@ -7,7 +7,7 @@
 </p>
 
 <!-- streak -->
-<a href="https://github.com/Purabhh"><img src="assets/streak.svg" width="100%" alt="10 day streak" /></a>
+<a href="https://github.com/Purabhh"><img src="assets/streak.svg" width="100%" alt="11 day streak" /></a>
 <!-- /streak -->
 
 I build backend systems where correctness matters: payment ledgers, real-time engines, and the infrastructure that makes AI tools reliable.
